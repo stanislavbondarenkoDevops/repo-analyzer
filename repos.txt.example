@@ -1,0 +1,23 @@
+# ═══════════════════════════════════════════════════
+# Repo Analyzer — список репозиторіїв для аналізу
+# ═══════════════════════════════════════════════════
+#
+# ІНСТРУКЦІЯ:
+#   cp repos.txt.example repos.txt
+#   nano repos.txt          ← додай свої репо
+#   ./00-bootstrap.sh       ← клонує і готує середовище
+#
+# Формат: один git URL на рядок
+# Підтримується: GitHub, GitLab, Bitbucket, self-hosted
+# Ігнорується: порожні рядки і рядки що починаються з #
+#
+# ═══════════════════════════════════════════════════
+
+# Приклади (замінити на свої):
+# https://github.com/your-org/your-backend-service.git
+# https://github.com/your-org/your-infrastructure.git
+# https://github.com/your-org/your-frontend.git
+
+# Якщо посилання веде на підпапку (tree/blob URL) —
+# вкажи тільки корінь репо:
+# https://github.com/some-org/monorepo.git
